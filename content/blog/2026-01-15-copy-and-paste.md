@@ -8,15 +8,15 @@ developer-tools, html, python]
 
 # Copy & Paste Deployments
 
-I struggled to learn web development when I first got hooked on the web in the early 2010s.
+I struggled to learn web development when I first got hooked on the web in the early aughts.
 
 I was comfortable automating data workflows at work using VBA and eventually Python, but for whatever reason, I just could not grok full-stack coding. The gap between a script that ran on my machine and a living, breathing web application felt insurmountable.
 
-Then I discovered No-Code — specifically Bubble and Zapier — and I was elated. It felt like the promise of the internet was finally at my fingertips. You could really go from an idea to a functional prototype in a weekend. I was so convinced that I even wrote about [not learning to code](https://medium.com/@thedatadavis/don-t-learn-to-code-6c2b69c65a42) because the tools were getting so good.
+Then I discovered No-Code, and I was elated. It felt like the promise of the internet was finally at my fingertips. You could really go from an idea to a functional prototype in a weekend. I was so convinced that I even wrote about [not learning to code](https://medium.com/@thedatadavis/don-t-learn-to-code-6c2b69c65a42) because the tools were getting so good.
 
 But as I became more sophisticated and had my first experience building a fast-growing startup from the ground up, the cracks in the No-Code stack became apparent.
 
-I was still weak in the frontend department, but I started evolving my thinking around what an optimal stack for a bootstrapper might look like. I experimented with what I called [Slender Stack Development](https://medium.com/@thedatadavis/slender-stack-development-d1a4ac729ffa): a way to stay lean without getting trapped in walled gardens. Even as I refocused on the Modern Data Stack in my day job, I kept hacking on side projects, picking up product engineering skills, and helping other founders bootstrap their MVPs.
+I started evolving my thinking around what an optimal stack for a bootstrapper might look like. I experimented with what I called [Slender Stack Development](https://medium.com/@thedatadavis/slender-stack-development-d1a4ac729ffa): a way to stay lean without getting trapped in walled gardens. Even as I refocused on the Modern Data Stack in my day job, I kept hacking on side projects, picking up product engineering skills, and helping other founders bootstrap their MVPs.
 
 ### The Inflection Point
 
@@ -48,7 +48,7 @@ The premise is dead simple:
 
 That’s it. You can even add custom domains (my personal site, [cdavis.xyz](https://cdavis.xyz), is proudly hosted on Pageplane). It’s also a PWA, so you can install `pageplane.app/new` to your homescreen and deploy ideas directly from your phone.
 
-If GitHub Pages is the "heavy" way to deploy static sites, think of Pageplane as **Carrd meets GitHub Gists**. It is a home for your tools, demos, experiments, and objects-thrown-at-the-wall-to-see-what-sticks.
+If GitHub Pages is the "heavy" way to deploy static sites, think of Pageplane as Carrd meets GitHub Gists. It is a home for your tools, demos, experiments, and objects-thrown-at-the-wall-to-see-what-sticks.
 
 This blog post itself is a product of this philosophy. I needed a way to handle content without breaking the single-file constraint or setting up a CMS. So, I wrote [Flatcontent](https://github.com/bootstrapital/flatcontent) in about 30 minutes. It turns markdown files into a JSON artifact that can be fetched by the HTML file on Pageplane.
 
@@ -62,7 +62,7 @@ Because I built Pageplane to help people avoid over-engineering, I made sure not
 *   **Infrastructure:** Deployed on Fly.io with OpenTelemetry for observability.
 *   **Billing:** Polar.
 
-This efficient architecture allows me to keep the service sustainable. The **Free Plan** lets you host up to 3 projects on subdomains. If you want to use Custom Domains, the **Starter Plan** is just $29/year.
+This efficient architecture allows me to keep the service sustainable. The Free Plan lets you host up to 3 active projects on subdomains. Adding custom domains starts at just $29/year.
 
 ### What’s Next?
 
