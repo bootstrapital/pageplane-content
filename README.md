@@ -7,4 +7,4 @@ Demo content repo for Pageplane + Flatcontent.
 - GitHub Pages hosts the artifact
 
 Artifact URL:
-https://<your-gh-user>.github.io/pageplane-content/content.json
+[https://bootstrapital.github.io/pageplane-content/content.json](https://bootstrapital.github.io/pageplane-content/content.json)
