@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Pageplane Content</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Content repository for Pageplane powered by Flatcontent." />
+    <style>
+      :root {
+        --bg: #ffffff;
+        --text: #111111;
+        --muted: #666666;
+        --border: #e6e6e6;
+        --panel: #fafafa;
+        --radius: 12px;
+      }
+
+      * { box-sizing: border-box; }
+
+      body {
+        margin: 0;
+        font: 15px/1.5 system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+        color: var(--text);
+        background: var(--bg);
+      }
+
+      .wrap {
+        max-width: 720px;
+        padding: 48px 20px;
+        margin: 0 auto;
+      }
+
+      h1 {
+        font-size: 22px;
+        margin: 0 0 8px;
+        letter-spacing: -0.2px;
+      }
+
+      p {
+        margin: 8px 0 0;
+        color: var(--muted);
+      }
+
+      .card {
+        margin-top: 28px;
+        border: 1px solid var(--border);
+        border-radius: var(--radius);
+        background: var(--panel);
+        padding: 20px;
+      }
+
+      .card h2 {
+        font-size: 16px;
+        margin: 0 0 8px;
+      }
+
+      ul {
+        margin: 8px 0 0 18px;
+      }
+
+      code {
+        font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+        font-size: 13px;
+        background: #fff;
+        border: 1px solid var(--border);
+        padding: 2px 6px;
+        border-radius: 6px;
+      }
+
+      a {
+        color: inherit;
+        text-decoration: underline;
+      }
+
+      .footer {
+        margin-top: 40px;
+        font-size: 13px;
+        color: var(--muted);
+      }
+    </style>
+  </head>
+  <body>
+    <main class="wrap">
+      <h1>Pageplane Content</h1>
+      <p>
+        This repository publishes structured content for Pageplane using
+        <strong>Flatcontent</strong>.
+      </p>
+
+      <div class="card">
+        <h2>Available artifacts</h2>
+        <ul>
+          <li>
+            <strong>Content JSON:</strong>
+            <a href="./content.json"><code>content.json</code></a>
+          </li>
+          <li>
+            <strong>Collections:</strong>
+            blog, docs, changelog
+          </li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h2>What this is</h2>
+        <p>
+          Markdown files are compiled into a single JSON artifact via
+          <code>flatcontent</code> and hosted on GitHub Pages.
+        </p>
+        <p>
+          Pageplane (or any static HTML frontend) can fetch this JSON at runtime
+          or during a build step.
+        </p>
+      </div>
+
+      <div class="card">
+        <h2>What this is not</h2>
+        <p>
+          This is not a CMS UI or a website. It is a content source of truth.
+        </p>
+      </div>
+
+      <div class="footer">
+        Built with <code>flatcontent</code>. Content lives in this repo. Presentation lives elsewhere.
+      </div>
+    </main>
+  </body>
+</html>
