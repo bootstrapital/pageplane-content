@@ -40,6 +40,8 @@ But I needed a place to put them.
 
 I created [Pageplane](https://pageplane.app) as a minimalist static site host for this exact workflow.
 
+![pageplane-overview](https://github.com/user-attachments/assets/04fee244-ee3b-4b29-83b8-de690c7d0694)
+
 The premise is dead simple:
 1. Generate full HTML from the chat of your choice.
 2. Copy it.
@@ -50,8 +52,6 @@ That’s it. You can even add custom domains (my personal site, [cdavis.xyz](htt
 
 If GitHub Pages is the "heavy" way to deploy static sites, think of Pageplane as Carrd meets GitHub Gists. It is a home for your tools, demos, experiments, and objects-thrown-at-the-wall-to-see-what-sticks.
 
-
-<img width="525" height="402" alt="image" src="https://github.com/user-attachments/assets/e1e8530f-58cd-45d2-adf8-b641ad2d6bdc" />
 
 
 This blog post itself is a product of this philosophy. I needed a way to handle content without breaking the single-file constraint or setting up a CMS. So, I wrote [Flatcontent](https://github.com/bootstrapital/flatcontent) in about 30 minutes. It turns markdown files into a JSON artifact that can be fetched by the HTML file on Pageplane.
