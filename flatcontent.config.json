@@ -1,0 +1,9 @@
+{
+  "contentDir": "content",
+  "outFile": "public/content.json",
+  "collections": {
+    "blog": { "sort": "date_desc" },
+    "changelog": { "sort": "date_desc" },
+    "docs": { "sort": "title_asc" }
+  }
+}
