@@ -16,7 +16,7 @@ Then I discovered No-Code — specifically Bubble and Zapier — and I was elate
 
 But as I became more sophisticated and had my first experience building a fast-growing startup from the ground up, the cracks in the No-Code stack became apparent.
 
-I was still weak in the frontend department, but I started evolving my thinking around what an optimal stack for a bootstrapper might look like. I experimented with what I called [Slender Stack Development](https://medium.com/@thedatadavis/slender-stack-development-d1a4ac729ffa): a way to stay lean without getting trapped in walled gardens. Even as I refocused on the Modern Data Stack in my day job, I kept hacking on side projects, picking up product engineering skills, and helping other founders bootstrap their V1s.
+I was still weak in the frontend department, but I started evolving my thinking around what an optimal stack for a bootstrapper might look like. I experimented with what I called [Slender Stack Development](https://medium.com/@thedatadavis/slender-stack-development-d1a4ac729ffa): a way to stay lean without getting trapped in walled gardens. Even as I refocused on the Modern Data Stack in my day job, I kept hacking on side projects, picking up product engineering skills, and helping other founders bootstrap their MVPs.
 
 ### The Inflection Point
 
