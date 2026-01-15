@@ -24,7 +24,7 @@ Like many, I was skeptical of the early promises made by GenAI proponents. And t
 
 Suddenly, the possibilities were expansive again. My intolerance and impatience with boilerplate, JavaScript frameworks, and build steps were no longer bottlenecks. I could build things that popped into my head within hours instead of days.
 
-One of the first things I built during this era was [Tab Tally](https://chromewebstore.google.com/detail/tab-tally/kbhboaenebhhbcekfjeffmclocigjenn?pli=1), a Chrome extension that simply shows how many tabs you have open. I was annoyed the desktop browser didn't do this natively like the iOS app does. With ChatGPT, I had a working version in minutes and polished it over a ~3 hour session.
+One of the first things I built during this era was [Tab Tally](https://chromewebstore.google.com/detail/tab-tally/kbhboaenebhhbcekfjeffmclocigjenn?pli=1), a Chrome extension that simply shows how many tabs you have open. I was annoyed that the desktop browser didn't do this natively like the iOS app does. With ChatGPT, I had a working version in minutes and polished it over a ~3-hour session.
 
 Today, I mostly use Gemini (thanks to a free student pro plan), and the workflow has only gotten faster.
 
@@ -49,6 +49,10 @@ The premise is dead simple:
 That’s it. You can even add custom domains (my personal site, [cdavis.xyz](https://cdavis.xyz), is proudly hosted on Pageplane). It’s also a PWA, so you can install `pageplane.app/new` to your homescreen and deploy ideas directly from your phone.
 
 If GitHub Pages is the "heavy" way to deploy static sites, think of Pageplane as Carrd meets GitHub Gists. It is a home for your tools, demos, experiments, and objects-thrown-at-the-wall-to-see-what-sticks.
+
+
+<img width="525" height="402" alt="image" src="https://github.com/user-attachments/assets/e1e8530f-58cd-45d2-adf8-b641ad2d6bdc" />
+
 
 This blog post itself is a product of this philosophy. I needed a way to handle content without breaking the single-file constraint or setting up a CMS. So, I wrote [Flatcontent](https://github.com/bootstrapital/flatcontent) in about 30 minutes. It turns markdown files into a JSON artifact that can be fetched by the HTML file on Pageplane.
 
