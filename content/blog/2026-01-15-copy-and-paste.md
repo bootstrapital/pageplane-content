@@ -40,7 +40,7 @@ But I needed a place to put them.
 
 I created [Pageplane](https://pageplane.app) as a minimalist static site host for this exact workflow.
 
-![pageplane-overview](https://github.com/user-attachments/assets/04fee244-ee3b-4b29-83b8-de690c7d0694)
+![pageplane-overview](https://github.com/user-attachments/assets/b177b9e4-2b45-4276-8fb8-ede35697fd17)
 
 The premise is dead simple:
 1. Generate full HTML from the chat of your choice.
